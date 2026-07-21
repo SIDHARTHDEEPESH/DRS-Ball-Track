@@ -211,3 +211,6 @@ Ensure the `frames/`, `masked/`, `trajectory/`, and `static/` directories are wr
 - The output video codec (`h264` via OpenCV `VideoWriter`) may not be available in all OpenCV builds/environments and can require an FFmpeg-enabled OpenCV install.
 - No authentication, input validation, or file-type/size checks are performed on uploaded videos.
 - `app.py`'s broad `except:` block on the upload route silently swallows all errors and re-renders the front page, making failures hard to diagnose.
+
+---
+NITC
